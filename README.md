@@ -4,7 +4,7 @@
 
 <div align="center">
   <h2 style="color: #ccff00;">>_ SYSTEM_ARCHITECT // UKG_ECOSYSTEM_OPERATOR</h2>
-  <p><b>ID: KG-8842</b> | status: <span style="color: #00ff00;">ONLINE</span> | location: <span style="color: #00ff00;">NASHVILLE, TN</span></p>
+  <p><b>ID: KG-8842</b> | status: <span style="color: #00ff00;">ONLINE</span> | location: <span style="color: #00ff00;">HOUSTON, TX</span></p>
 
   <a href="https://kronosguy.com">
     <img src="https://img.shields.io/badge/LINK-PORTFOLIO-000000?style=for-the-badge&logo=vercel&logoColor=ccff00&labelColor=1a1a1a" alt="Portfolio"/>
