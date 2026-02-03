@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/kronosguy/kronosguy/main/assets/header.png" alt="KronosGuy Header" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=ccff00&height=120&section=header&text=KRONOS_GUY&fontSize=80&fontColor=050505&fontAlign=50&animation=fadeIn&fontAlignY=35" alt="KronosGuy Header" width="100%" />
 </div>
 
 <div align="center">
@@ -49,5 +49,5 @@ High-value strategic initiatives currently deployed. Business value over feature
 <br />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/kronosguy/kronosguy/main/assets/footer.png" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=ccff00&height=100&section=footer" width="100%" />
 </div>
