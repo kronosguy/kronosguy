@@ -1,7 +1,7 @@
 
 
 <div align="center">
-  <img src="./assets/header_transparent.png" alt="KronosGuy Header" width="100%" />
+  <img src="./assets/header.svg" alt="KronosGuy Header" width="100%" />
 </div>
 
 <div align="center">
@@ -51,5 +51,5 @@ High-value strategic initiatives currently deployed. Business value over feature
 <br />
 
 <div align="center">
-  <img src="./assets/footer_transparent.png" width="100%" />
+  <img src="./assets/footer.svg" width="100%" />
 </div>
