@@ -1,8 +1,6 @@
 
 
-<div align="center">
-  <img src="./assets/header.svg" alt="KronosGuy Header" width="100%" />
-</div>
+
 
 <div align="center">
   <h2 style="color: #ccff00;">>_ SYSTEM_ARCHITECT // UKG_ECOSYSTEM_OPERATOR</h2>
@@ -50,6 +48,4 @@ High-value strategic initiatives currently deployed. Business value over feature
 
 <br />
 
-<div align="center">
-  <img src="./assets/footer.svg" width="100%" />
-</div>
+
