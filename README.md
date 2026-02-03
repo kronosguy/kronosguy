@@ -25,9 +25,7 @@
 <br />
 
 ### >_ DEPLOYMENT_STACK
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,python,postgres,gcp,azure&theme=dark" />
-</div>
+<img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,python,postgres,gcp,azure&theme=dark" />
 
 <br />
 
