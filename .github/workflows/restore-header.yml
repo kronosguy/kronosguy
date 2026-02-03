@@ -1,0 +1,53 @@
+name: Restore Original Header
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Run every hour
+  workflow_dispatch: # Allow manual trigger
+
+permissions:
+  contents: write
+
+jobs:
+  check-and-restore:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Check Service Status and Download
+        id: download
+        run: |
+          URL="https://capsule-render.vercel.app/api?type=waving&color=ccff00&height=120&section=header&text=KRONOS_GUY&fontSize=80&fontColor=050505&fontAlign=50&animation=fadeIn&fontAlignY=35"
+          
+          # Try to fetch the header. -f fails on 404/402/500 errors.
+          if curl -f -L -o assets/header_restored.svg "$URL"; then
+            echo "Service is back! Image downloaded."
+            echo "restored=true" >> $GITHUB_OUTPUT
+            
+            # Download footer as well
+            curl -f -L -o assets/footer_restored.svg "https://capsule-render.vercel.app/api?type=waving&color=ccff00&height=100&section=footer"
+          else
+            echo "Service still down (402 Payment Required or other error)."
+            echo "restored=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and Push Changes
+        if: steps.download.outputs.restored == 'true'
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          
+          # Overwrite the current headers with the restored ones
+          mv assets/header_restored.svg assets/header.svg
+          mv assets/footer_restored.svg assets/footer.svg
+          
+          git add assets/header.svg assets/footer.svg
+          
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "feat: Auto-restore original capsule-render header (Service is back online!)"
+            git push
+          fi
