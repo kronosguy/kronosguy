@@ -3,7 +3,7 @@
 
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/kronosguy/kronosguy/main/assets/header_final.png" alt="KronosGuy Header" width="100%" />
+  <img src="https://raw.githubusercontent.com/kronosguy/kronosguy/main/assets/header_ultra_wide.png" alt="KronosGuy Header" width="100%" />
   <h2 style="color: #ccff00;">>_ SYSTEM_ARCHITECT // UKG_ECOSYSTEM_OPERATOR</h2>
   <p><b>ID: KG-8842</b> | status: <span style="color: #00ff00;">ONLINE</span> | location: <span style="color: #00ff00;">HOUSTON, TX</span></p>
 
