@@ -5,14 +5,102 @@ on:
     - cron: '0 0 * * 0'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme-sync
+  cancel-in-progress: true
+
 jobs:
   update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
+    name: Update profile README with latest blog posts
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - uses: actions/checkout@v4
         with:
-          comment_tag_name: "BLOG-POST-LIST"
-          feed_list: "https://kronosguy.com/rss.xml" # Placeholder for future blog feed
-          max_post_count: 3
+          fetch-depth: 0
+
+      - name: Ensure README blog markers exist
+        run: |
+          if ! grep -q "<!-- BLOG-POST-LIST:START -->" README.md; then
+            {
+              echo ""
+              echo "## Latest UKG Pro WFM Transmissions"
+              echo "<!-- BLOG-POST-LIST:START -->"
+              echo "- Awaiting first synchronized transmission."
+              echo "<!-- BLOG-POST-LIST:END -->"
+            } >> README.md
+          fi
+
+      - name: Sync latest 3 transmissions from RSS into README
+        run: |
+          python - <<'PY'
+          import re
+          import urllib.request
+          import xml.etree.ElementTree as ET
+
+          RSS_URL = "https://kronosguy.com/rss.xml"
+          README_PATH = "README.md"
+          START = "<!-- BLOG-POST-LIST:START -->"
+          END = "<!-- BLOG-POST-LIST:END -->"
+
+          with urllib.request.urlopen(RSS_URL, timeout=30) as response:
+            rss = response.read()
+
+          root = ET.fromstring(rss)
+          items = root.findall("./channel/item")
+          latest = []
+          for item in items[:3]:
+            title = (item.findtext("title") or "Untitled").strip()
+            link = (item.findtext("link") or "https://kronosguy.com/blog").strip()
+            latest.append(f"- [{title}]({link})")
+
+          if not latest:
+            latest = ["- Awaiting first synchronized transmission."]
+
+          with open(README_PATH, "r", encoding="utf-8") as f:
+            readme = f.read()
+
+          if START not in readme or END not in readme:
+            if not readme.endswith("\n"):
+              readme += "\n"
+            readme += (
+              "\n## Latest UKG Pro WFM Transmissions\n"
+              f"{START}\n"
+              "- Awaiting first synchronized transmission.\n"
+              f"{END}\n"
+            )
+
+          pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.S)
+          replacement = START + "\n" + "\n".join(latest) + "\n" + END
+          updated = pattern.sub(replacement, readme, count=1)
+
+          with open(README_PATH, "w", encoding="utf-8", newline="\n") as f:
+            f.write(updated)
+          PY
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet; then
+            echo "No README changes detected."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore(profile): sync latest UKG Pro WFM transmissions"
+
+          for attempt in 1 2 3; do
+            git pull --rebase origin main || true
+            if git push origin HEAD:main; then
+              echo "Push succeeded on attempt ${attempt}."
+              exit 0
+            fi
+            echo "Push failed on attempt ${attempt}; retrying..."
+            sleep $((attempt * 5))
+          done
+
+          echo "Failed to push README update after 3 attempts."
+          exit 1
