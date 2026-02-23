@@ -1,27 +1,42 @@
-name: Latest Transmission Update
+name: Sync Profile README Transmissions
+
 on:
-  schedule:
-    # Runs at 00:00 on Sunday
-    - cron: '0 0 * * 0'
   workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"  # every 6 hours at minute 17
 
 permissions:
   contents: write
 
 concurrency:
-  group: profile-readme-sync
+  group: sync-profile-readme
   cancel-in-progress: true
 
 jobs:
-  update-readme-with-blog:
-    name: Update profile README with latest blog posts
+  sync:
+    name: Update kronosguy profile README with latest transmissions
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Require cross-repo PAT
+        shell: bash
+        run: |
+          if [ -z "${{ secrets.README_SYNC_TOKEN }}" ]; then
+            echo "Missing required secret README_SYNC_TOKEN."
+            echo "Create a PAT with Contents: Read and write for kronosguy/kronosguy and store it as README_SYNC_TOKEN."
+            exit 1
+          fi
+
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
         with:
+          repository: kronosguy/kronosguy
+          ref: main
+          token: ${{ secrets.README_SYNC_TOKEN }}
           fetch-depth: 0
 
       - name: Ensure README blog markers exist
+        shell: bash
         run: |
           if ! grep -q "<!-- BLOG-POST-LIST:START -->" README.md; then
             {
@@ -33,74 +48,47 @@ jobs:
             } >> README.md
           fi
 
-      - name: Sync latest 3 transmissions from RSS into README
+      - name: Render RSS into README (no commit/push)
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          comment_tag_name: BLOG-POST-LIST
+          feed_list: https://kronosguy.com/rss.xml
+          max_post_count: 3
+          readme_path: README.md
+          gh_token: ${{ secrets.README_SYNC_TOKEN }}
+          skip_commit: true
+
+      - name: Commit + push (rebase-safe)
+        shell: bash
         run: |
-          python - <<'PY'
-          import re
-          import urllib.request
-          import xml.etree.ElementTree as ET
+          set -euo pipefail
 
-          RSS_URL = "https://kronosguy.com/rss.xml"
-          README_PATH = "README.md"
-          START = "<!-- BLOG-POST-LIST:START -->"
-          END = "<!-- BLOG-POST-LIST:END -->"
+          git config user.name "blog-post-bot"
+          git config user.email "blog-post-bot@example.com"
 
-          with urllib.request.urlopen(RSS_URL, timeout=30) as response:
-            rss = response.read()
+          # Safety: ensure we push to the profile repo even if another step rewrites remotes
+          git remote set-url origin "https://github.com/kronosguy/kronosguy.git"
 
-          root = ET.fromstring(rss)
-          items = root.findall("./channel/item")
-          latest = []
-          for item in items[:3]:
-            title = (item.findtext("title") or "Untitled").strip()
-            link = (item.findtext("link") or "https://kronosguy.com/blog").strip()
-            latest.append(f"- [{title}]({link})")
+          # Bring branch up to date without losing README edits
+          git pull --rebase --autostash origin main
 
-          if not latest:
-            latest = ["- Awaiting first synchronized transmission."]
-
-          with open(README_PATH, "r", encoding="utf-8") as f:
-            readme = f.read()
-
-          if START not in readme or END not in readme:
-            if not readme.endswith("\n"):
-              readme += "\n"
-            readme += (
-              "\n## Latest UKG Pro WFM Transmissions\n"
-              f"{START}\n"
-              "- Awaiting first synchronized transmission.\n"
-              f"{END}\n"
-            )
-
-          pattern = re.compile(re.escape(START) + r".*?" + re.escape(END), re.S)
-          replacement = START + "\n" + "\n".join(latest) + "\n" + END
-          updated = pattern.sub(replacement, readme, count=1)
-
-          with open(README_PATH, "w", encoding="utf-8", newline="\n") as f:
-            f.write(updated)
-          PY
-
-      - name: Commit and push if changed
-        run: |
+          # Nothing changed? bail.
           if git diff --quiet; then
-            echo "No README changes detected."
+            echo "No changes detected."
             exit 0
           fi
 
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
           git commit -m "chore(profile): sync latest UKG Pro WFM transmissions"
 
+          # Retry push to handle rare race conditions
           for attempt in 1 2 3; do
-            git pull --rebase origin main || true
             if git push origin HEAD:main; then
-              echo "Push succeeded on attempt ${attempt}."
               exit 0
             fi
-            echo "Push failed on attempt ${attempt}; retrying..."
-            sleep $((attempt * 5))
+            echo "Push rejected (attempt ${attempt}). Rebasing and retrying..."
+            git pull --rebase --autostash origin main
           done
 
-          echo "Failed to push README update after 3 attempts."
+          echo "Push failed after 3 attempts."
           exit 1
