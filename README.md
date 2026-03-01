@@ -42,9 +42,9 @@ High-value strategic initiatives currently deployed. Business value over feature
 
 ### >_ LATEST_TRANSMISSION
 <!-- BLOG-POST-LIST:START -->
+- [UKG Pro WFM Transmission: Stabilizing Timecard Exceptions Before Payroll Lock](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-02-27)
+- [UKG Pro WFM Transmission: Integration SLA Monitoring for UKG Pro WFM Feeds](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-02-24)
 - [UKG Pro WFM Transmission: Stabilizing Timecard Exceptions Before Payroll Lock](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-02-21)
-- [Transmission February Week 2: The Foundation (Stop the Bleeding)](https://kronosguy.com/blog/transmission-2026-02-week2)
-- [Integration Best Practices: Boomi to API](https://kronosguy.com/blog/integration-best-practices)
 <!-- BLOG-POST-LIST:END -->
 
 <br />
