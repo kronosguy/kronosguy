@@ -39,7 +39,7 @@
           </animate>
         </path>
       </g>
-         <text text-anchor="middle" alignment-baseline="middle" x="50%" y="35%" class="text" style="fill:#050505;" stroke="#none" stroke-width="1" >KRONOS_GUY</text>
+         <text text-anchor="middle" dominant-baseline="middle" x="50%" y="35%" class="text" style="fill:#050505;" stroke="#none" stroke-width="1" >KRONOS_GUY</text>
         
       </svg>
     
