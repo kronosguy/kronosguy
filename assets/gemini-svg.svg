@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 150" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;family=Inter:wght@400&amp;display=swap');
+      
+      .brand-text { 
+        font-family: 'Montserrat', sans-serif; 
+        font-weight: 700; 
+        font-size: 44px; 
+      }
+      .kronos { fill: #34495e; }
+      .guy { fill: #2ecc71; }
+      
+      .subtext { 
+        font-family: 'Inter', sans-serif; 
+        font-weight: 400; 
+        font-size: 14px; 
+        fill: #34495e; 
+        letter-spacing: 3px; 
+      }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#ecf0f1" rx="8"/>
+
+  <polygon points="450,150 500,100 500,150" fill="#2ecc71" />
+
+  <text x="40" y="80" class="brand-text">
+    <tspan class="kronos">KRONOS</tspan><tspan class="guy">_GUY</tspan>
+  </text>
+
+  <text x="44" y="110" class="subtext">LABS // API DOCUMENTATION</text>
+
+  <polyline points="370,105 385,105 392,90 402,120 409,105 425,105" 
+            fill="none" 
+            stroke="#2ecc71" 
+            stroke-width="3" 
+            stroke-linejoin="round" 
+            stroke-linecap="round" />
+</svg>
