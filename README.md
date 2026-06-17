@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/kronosguy/kronosguy/41dc23e69470dd64cfdf46300f82619d4d7a0b88/assets/api.svg" alt="KronosGuy Header" width="100%" />
+  <img src=["https://github.com/kronosguy/kronosguy/blob/main/assets/api.svg"] alt="KronosGuy Header" width="100%" />
 
   <h2>>_ WORKFORCE_INTELLIGENCE_ARCHITECT // UKG_ECOSYSTEM_OPERATOR</h2>
 
