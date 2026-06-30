@@ -1,0 +1,173 @@
+#EXTM3U
+# Central Alabama Local + Premium-Style FAST
+# Generated 2026-06-30
+# PRIMARY OBJECTIVE: Central Alabama local-news coverage
+# Official station access pages (browser/app based, not stable HLS endpoints):
+# WBRC 6: https://www.wbrc.com/livestream/
+# WAKA 8: https://www.vuit.com/publishers/562/waka
+# WSFA 12: https://www.wsfa.com/livestream/
+# WVTM 13: https://www.wvtm13.com/nowcast
+# WCOV 20: https://www.wcov.com/
+# WNCF ABC 32: https://www.waka.com/about-us/our-stations/abc-32/
+# ABC 33/40: https://abc3340.com/watch
+# CBS 42: https://www.cbs42.com/
+# Note: station-specific entries below use authorized public network-news fallbacks when the official station player does not expose a stable public HLS URL.
+
+#EXTINF:-1 tvg-id="CapitalCityConnectionMontgomery.us@SD" tvg-name="Capital City Connection Montgomery" tvg-chno="1" group-title="01 | Central Alabama Local News",1 | Capital City Connection Montgomery
+https://capitalcityconnection.cablecast.tv/live/stream-1/live.m3u8
+#EXTINF:-1 tvg-id="BeachTVFloridaAlabama.us@SD" tvg-name="Beach TV Florida & Alabama" tvg-chno="2" group-title="01 | Central Alabama Local News",2 | Beach TV Florida & Alabama
+https://5ed325193d4e1.streamlock.net:444/LiveTV/DTVHD/playlist.m3u8
+#EXTINF:-1 tvg-id="LiveNOWfromFOX.us@SD" tvg-name="WBRC 6 / WCOV 20 FOX Local-News Fallback" tvg-chno="6" group-title="01 | Central Alabama Local News",6 | WBRC 6 / WCOV 20 FOX Local-News Fallback
+https://fox-foxnewsnow-vizio.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="CBSNews247.us@SD" tvg-name="WAKA 8 / CBS 42 CBS Local-News Fallback" tvg-chno="8" group-title="01 | Central Alabama Local News",8 | WAKA 8 / CBS 42 CBS Local-News Fallback
+https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+#EXTINF:-1 tvg-id="NBCNewsNOW.us@SD" tvg-name="WSFA 12 / WVTM 13 NBC Local-News Fallback" tvg-chno="12" group-title="01 | Central Alabama Local News",12 | WSFA 12 / WVTM 13 NBC Local-News Fallback
+https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99984003
+#EXTINF:-1 tvg-id="FoxWeather.us@SD" tvg-name="Central Alabama Severe Weather - FOX Weather" tvg-chno="14" group-title="01 | Central Alabama Local News",14 | Central Alabama Severe Weather - FOX Weather
+https://247wlive.foxweather.com/stream/index.m3u8
+#EXTINF:-1 tvg-id="WeatherNation.us@SD" tvg-name="Central Alabama Weather - WeatherNation" tvg-chno="15" group-title="01 | Central Alabama Local News",15 | Central Alabama Weather - WeatherNation
+https://d2ferbiwcx1539.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8zd06wicndthf-ssai-prd/WNNationalSamsung/WNNationalSamsung.m3u8
+#EXTINF:-1 tvg-id="WSBDT1.us@SD" tvg-name="WSB Atlanta Regional News" tvg-chno="17" group-title="01 | Central Alabama Local News",17 | WSB Atlanta Regional News
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsbbreakingnews-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="WHBQTV131.us@HD" tvg-name="WHBQ Memphis Regional News" tvg-chno="18" group-title="01 | Central Alabama Local News",18 | WHBQ Memphis Regional News
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02104-imagicommcommun-whbqbreaking-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="WJAXTV471.us@HD" tvg-name="WJAX Jacksonville Regional News" tvg-chno="19" group-title="01 | Central Alabama Local News",19 | WJAX Jacksonville Regional News
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wjaxbreaking-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="WSOCTV91.us@HD" tvg-name="WSOC Charlotte Regional News" tvg-chno="20" group-title="01 | Central Alabama Local News",20 | WSOC Charlotte Regional News
+https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00327-coxmediagroup-wsocbreaking-ono/playlist.m3u8
+#EXTINF:-1 tvg-id="Newsy.us@SD" tvg-name="ABC 33/40 / WNCF 32 News Fallback - Scripps News" tvg-chno="33" group-title="01 | Central Alabama Local News",33 | ABC 33/40 / WNCF 32 News Fallback - Scripps News
+https://547f72e6652371c3.mediapackage.us-east-1.amazonaws.com/out/v1/e3e6e29095844c4ba7d887f01e44a5ef/index.m3u8
+#EXTINF:-1 tvg-id="WorldChannel.us@SD" tvg-name="Alabama Public Television Style - PBS World" tvg-chno="40" group-title="01 | Central Alabama Local News",40 | Alabama Public Television Style - PBS World
+https://world.lls.pbs.org/index.m3u8
+#EXTINF:-1 tvg-id="Create.us@SD" tvg-name="Alabama Public Television Style - PBS Create" tvg-chno="41" group-title="01 | Central Alabama Local News",41 | Alabama Public Television Style - PBS Create
+https://create.lls.pbs.org/index.m3u8
+#EXTINF:-1 tvg-id="PBSKids.us@SD" tvg-name="Alabama Public Television Style - PBS Kids" tvg-chno="42" group-title="01 | Central Alabama Local News",42 | Alabama Public Television Style - PBS Kids
+https://livestream.pbskids.org/out/v1/14507d931bbe48a69287e4850e53443c/est.m3u8
+
+#EXTINF:-1 tvg-id="CourtTV.us@SD" tvg-name="Court TV" tvg-chno="101" group-title="02 | News & Business",101 | Court TV
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="BloombergTV.us@US" tvg-name="Bloomberg TV US" tvg-chno="102" group-title="02 | News & Business",102 | Bloomberg TV US
+https://bloomberg.com/media-manifest/streams/us.m3u8
+#EXTINF:-1 tvg-id="BloombergOriginals.us@SD" tvg-name="Bloomberg Originals" tvg-chno="103" group-title="02 | News & Business",103 | Bloomberg Originals
+https://86fdc85a.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnT3JpZ2luYWxzX0hMUw/playlist.m3u8
+#EXTINF:-1 tvg-id="YahooFinance.us@SD" tvg-name="Yahoo Finance" tvg-chno="104" group-title="02 | News & Business",104 | Yahoo Finance
+https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8
+#EXTINF:-1 tvg-id="NewsmaxTV.us@SD" tvg-name="Newsmax TV" tvg-chno="105" group-title="02 | News & Business",105 | Newsmax TV
+https://nmx1ota.akamaized.net/hls/live/2107010/Live_1/index.m3u8
+#EXTINF:-1 tvg-id="UNWebTV.us@SD" tvg-name="United Nations Web TV" tvg-chno="106" group-title="02 | News & Business",106 | United Nations Web TV
+https://cdnapi.kaltura.com/p/2503451/sp/250345100/playManifest/entryId/1_gb6tjmle/protocol/https/format/applehttp/a.m3u8
+
+#EXTINF:-1 tvg-id="IONPlus.us@East" tvg-name="ION Plus" tvg-chno="201" group-title="03 | Entertainment",201 | ION Plus
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-ionplus-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="BounceXL.us@SD" tvg-name="Bounce XL" tvg-chno="202" group-title="03 | Entertainment",202 | Bounce XL
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-bouncexl-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="GritXtra.us@SD" tvg-name="Grit Xtra" tvg-chno="203" group-title="03 | Entertainment",203 | Grit Xtra
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-gritxtra-tablo/playlist.m3u8
+#EXTINF:-1 tvg-id="Charge.us@SD" tvg-name="Charge!" tvg-chno="204" group-title="03 | Entertainment",204 | Charge!
+https://fast-channels.sinclairstoryline.com/CHARGE/index.m3u8
+#EXTINF:-1 tvg-id="Comet.us@SD" tvg-name="Comet" tvg-chno="205" group-title="03 | Entertainment",205 | Comet
+https://fast-channels.sinclairstoryline.com/COMET/index.m3u8
+#EXTINF:-1 tvg-id="MeTV.us@SD" tvg-name="MeTV" tvg-chno="206" group-title="03 | Entertainment",206 | MeTV
+https://82934cf9c8696bd2.mediapackage.us-east-1.amazonaws.com/out/v1/23685237ffbb4047a8143ac2166ead44/index.m3u8
+#EXTINF:-1 tvg-id="Heartland.us@Eastern" tvg-name="Heartland" tvg-chno="207" group-title="03 | Entertainment",207 | Heartland
+https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/heartland/index.m3u8
+#EXTINF:-1 tvg-id="RetroTV.us@East" tvg-name="Retro TV" tvg-chno="208" group-title="03 | Entertainment",208 | Retro TV
+https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/retro/index.m3u8
+#EXTINF:-1 tvg-id="SNLVault.us@SD" tvg-name="SNL Vault" tvg-chno="209" group-title="03 | Entertainment",209 | SNL Vault
+https://xumo-xumoent-vc-103-d3uqt.fast.nbcuni.com/live/master.m3u8
+#EXTINF:-1 tvg-id="Dateline247.us@SD" tvg-name="Dateline 24/7" tvg-chno="210" group-title="03 | Entertainment",210 | Dateline 24/7
+https://dz59iptwz5rxs.cloudfront.net/live/master.m3u8
+
+#EXTINF:-1 tvg-id="HallmarkMoviesMore.us@SD" tvg-name="Hallmark Movies & More" tvg-chno="301" group-title="04 | Movies & Documentaries",301 | Hallmark Movies & More
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991709
+#EXTINF:-1 tvg-id="Movies.us@SD" tvg-name="Movies!" tvg-chno="302" group-title="04 | Movies & Documentaries",302 | Movies!
+https://2-fss-2.streamhoster.com/pl_120/206858-4412962-1/playlist.m3u8
+#EXTINF:-1 tvg-id="FilmRiseClassicTV.us@SD" tvg-name="FilmRise Classic TV" tvg-chno="303" group-title="04 | Movies & Documentaries",303 | FilmRise Classic TV
+https://d2tv4k5moji5m7.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-lu4pzh9l4b57p/master.m3u8
+#EXTINF:-1 tvg-id="DocumentaryPlus.us@US" tvg-name="Documentary Plus" tvg-chno="304" group-title="04 | Movies & Documentaries",304 | Documentary Plus
+https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/master/ba62fe743df0fe93366eba3a257d792884136c7f/LINEAR-859-DOCUMENTARYPLUS-DOCUMENTARYPLUS/mt/documentaryplus/859/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="PositivTV.us@SD" tvg-name="Positiv TV" tvg-chno="305" group-title="04 | Movies & Documentaries",305 | Positiv TV
+https://livecdn.use1-0004.jwplive.com/live/sites/fGLyccP5/media/FoWynVnP/live.isml/.m3u8
+#EXTINF:-1 tvg-id="ShemarooBollywood.us@SD" tvg-name="Shemaroo Bollywood" tvg-chno="306" group-title="04 | Movies & Documentaries",306 | Shemaroo Bollywood
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8
+
+#EXTINF:-1 tvg-id="beINSPORTSXTRA.us@SD" tvg-name="beIN SPORTS XTRA" tvg-chno="401" group-title="05 | Sports",401 | beIN SPORTS XTRA
+https://bein-xtra-bein.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="NBCSportsNOW.us@SD" tvg-name="NBC Sports NOW" tvg-chno="402" group-title="05 | Sports",402 | NBC Sports NOW
+https://d4whmvwm0rdvi.cloudfront.net/10007/99993008/hls/master.m3u8?ads.xumo_channelId=99993008
+#EXTINF:-1 tvg-id="TennisChannel.us@SD" tvg-name="Tennis Channel International" tvg-chno="403" group-title="05 | Sports",403 | Tennis Channel International
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01444-tennischannelth-tennischnlintl-lggb/playlist.m3u8
+#EXTINF:-1 tvg-id="DraftKingsNetwork.us@SD" tvg-name="DraftKings Network" tvg-chno="404" group-title="05 | Sports",404 | DraftKings Network
+https://na.linear.zype.com/e0bd0e23-a958-4e43-8164-4f2fef8876a8/fd3614bd-90bf-4530-a277-65ae3a1720c8-zype/live.m3u8
+#EXTINF:-1 tvg-id="FTFSports.us@SD" tvg-name="FTF Sports" tvg-chno="405" group-title="05 | Sports",405 | FTF Sports
+https://1657061170.rsc.cdn77.org/HLS/FTF-LINEAR.m3u8
+#EXTINF:-1 tvg-id="RacerNetwork.us@SD" tvg-name="Racer Network" tvg-chno="406" group-title="05 | Sports",406 | Racer Network
+https://amg00378-mavtv-amg00378c3-sportstribal-emea-1325.playouts.now.amagi.tv/mavtv-smn-xm/playlist.m3u8
+#EXTINF:-1 tvg-id="RallyTV.us@SD" tvg-name="Rally TV" tvg-chno="407" group-title="05 | Sports",407 | Rally TV
+https://rally-tv-live.akamaized.net/hls/live/2117704/RallyTV-Pri/master.m3u8
+#EXTINF:-1 tvg-id="Unbeaten.us@SD" tvg-name="Unbeaten" tvg-chno="408" group-title="05 | Sports",408 | Unbeaten
+https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/UnbeatenSports/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ToonGoggles.us@SD" tvg-name="Toon Goggles" tvg-chno="501" group-title="06 | Kids & Family",501 | Toon Goggles
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=37
+#EXTINF:-1 tvg-id="KetchupTV.us@SD" tvg-name="Ketchup TV" tvg-chno="502" group-title="06 | Kids & Family",502 | Ketchup TV
+https://stream.ads.ottera.tv/playlist.m3u8?network_id=13171
+#EXTINF:-1 tvg-id="YuGiOh.us@SD" tvg-name="Yu-Gi-Oh!" tvg-chno="503" group-title="06 | Kids & Family",503 | Yu-Gi-Oh!
+https://amg01796-amg01796c19-rakuten-gb-7486.playouts.now.amagi.tv/playlist/amg01796-fastmediafast-yugioh2en-rakutengb/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ClassicArtsShowcase.us@SD" tvg-name="Classic Arts Showcase" tvg-chno="601" group-title="07 | Lifestyle & Learning",601 | Classic Arts Showcase
+https://classicarts.akamaized.net/hls/live/1024257/CAS/master.m3u8
+#EXTINF:-1 tvg-id="CookingPanda.us@SD" tvg-name="Cooking Panda" tvg-chno="602" group-title="07 | Lifestyle & Learning",602 | Cooking Panda
+https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=46
+#EXTINF:-1 tvg-id="AKCTV.us@SD" tvg-name="AKC TV" tvg-chno="603" group-title="07 | Lifestyle & Learning",603 | AKC TV
+https://broadcast.blivenyc.com/speed/broadcast/22/desktop-playlist.m3u8
+#EXTINF:-1 tvg-id="Go2Travel.us@SD" tvg-name="Go2Travel" tvg-chno="604" group-title="07 | Lifestyle & Learning",604 | Go2Travel
+https://go2thls.wns.live/hls/stream.m3u8
+
+#EXTINF:-1 tvg-id="VevoPop.us@SD" tvg-name="Vevo Pop" tvg-chno="701" group-title="08 | Music",701 | Vevo Pop
+https://amg00056-amg00056c6-rakuten-uk-3235.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="XITE90sThrowback.us@SD" tvg-name="XITE 90s Throwback" tvg-chno="702" group-title="08 | Music",702 | XITE 90s Throwback
+https://d284aawtm5vi48.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-fjdfi2br1jtq7/XITE_90s_Throwback.m3u8
+#EXTINF:-1 tvg-id="LIVExLIVE.us@SD" tvg-name="LiveOne" tvg-chno="703" group-title="08 | Music",703 | LiveOne
+https://livestream.liveone.com/lc1/p1.m3u8
+
+#EXTINF:-1 tvg-id="MovieSphere.us@US" tvg-name="MovieSphere" tvg-chno="1001" group-title="11 | Premium-Style FAST",1001 | MovieSphere
+https://amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCEarth.uk@US" tvg-name="BBC Earth" tvg-chno="1002" group-title="11 | Premium-Style FAST",1002 | BBC Earth
+https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="BBC Top Gear" tvg-chno="1003" group-title="11 | Premium-Style FAST",1003 | BBC Top Gear
+https://amg00793-amg00793c5-xumo-us-2664.playouts.now.amagi.tv/bbcstudios-bbctopgear8min-all/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Bravo Vault" tvg-chno="1004" group-title="11 | Premium-Style FAST",1004 | Bravo Vault
+https://xumo-xumoent-vc-114-x0p7i.fast.nbcuni.com/live/master.m3u8
+#EXTINF:-1 tvg-id="EKeepingUp.us@SD" tvg-name="E! Keeping Up" tvg-chno="1005" group-title="11 | Premium-Style FAST",1005 | E! Keeping Up
+https://xumo-xumoent-vc-117-a3ga4.fast.nbcuni.com/live/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="American Ninja Warrior" tvg-chno="1006" group-title="11 | Premium-Style FAST",1006 | American Ninja Warrior
+https://xumo-drct-ch812-n4996.fast.nbcuni.com/live/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="American Crimes" tvg-chno="1007" group-title="11 | Premium-Style FAST",1007 | American Crimes
+https://xumo-xumoent-vc-113-at8kn.fast.nbcuni.com/live/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Murder, She Wrote" tvg-chno="1008" group-title="11 | Premium-Style FAST",1008 | Murder, She Wrote
+https://xumo-xumoent-vc-119-t7wx7.fast.nbcuni.com/live/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Little House on the Prairie" tvg-chno="1009" group-title="11 | Premium-Style FAST",1009 | Little House on the Prairie
+https://xumo-xumoent-vc-121-ghge7.fast.nbcuni.com/live/master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Leave It to Beaver" tvg-chno="1010" group-title="11 | Premium-Style FAST",1010 | Leave It to Beaver
+https://xumo-xumoent-ch826-z0h0h.fast.nbcuni.com/live/master.m3u8
+#EXTINF:-1 tvg-id="MidsomerMurders.us@SD" tvg-name="Midsomer Murders" tvg-chno="1011" group-title="11 | Premium-Style FAST",1011 | Midsomer Murders
+https://all3media-midsomer-1-us.xumo.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Million Dollar Listing Vault" tvg-chno="1012" group-title="11 | Premium-Style FAST",1012 | Million Dollar Listing Vault
+https://xumo-xumoent-ch838-coy7x.fast.nbcuni.com/live/master.m3u8
+#EXTINF:-1 tvg-id="HiYAH.us@SD" tvg-name="Hi-YAH!" tvg-chno="1013" group-title="11 | Premium-Style FAST",1013 | Hi-YAH!
+https://linear-59.frequency.stream/dist/xumo/59/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="ElectricNow.us@SD" tvg-name="Electric Now" tvg-chno="1014" group-title="11 | Premium-Style FAST",1014 | Electric Now
+https://elec-en-xumo.otteravision.com/elec/en/elec_en.m3u8
+#EXTINF:-1 tvg-id="DoveChannel.us@SD" tvg-name="Dove Channel" tvg-chno="1015" group-title="11 | Premium-Style FAST",1015 | Dove Channel
+https://linear-896.frequency.stream/dist/xumo/896/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="DoctorWhoClassic.us@US" tvg-name="Doctor Who Classic" tvg-chno="1016" group-title="11 | Premium-Style FAST",1016 | Doctor Who Classic
+https://bbc-classicdrwho-1-us.xumo.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Investigation" tvg-chno="1017" group-title="11 | Premium-Style FAST",1017 | Investigation
+https://amg00346-vizioono-investigation-xumo-us.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="GustoTV.ca@SD" tvg-name="Gusto TV" tvg-chno="1018" group-title="11 | Premium-Style FAST",1018 | Gusto TV
+https://gusto-xumo.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Homeful.ca@US" tvg-name="Homeful" tvg-chno="1019" group-title="11 | Premium-Style FAST",1019 | Homeful
+https://amg00090-blueantllc-homefull-xumo-rn9cd.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="PBSAntiquesRoadshow.us@SD" tvg-name="PBS Antiques Roadshow" tvg-chno="1020" group-title="11 | Premium-Style FAST",1020 | PBS Antiques Roadshow
+https://amg00953-pbsusa-antiroadshow-xumo-x6ud5.amagi.tv/playlist.m3u8
