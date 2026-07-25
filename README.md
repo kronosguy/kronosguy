@@ -1,23 +1,40 @@
 <div align="center">
-  <img src=["https://github.com/kronosguy/kronosguy/blob/main/assets/api.svg"] alt="KronosGuy Header" width="100%" />
 
-  <h2>>_ WORKFORCE_INTELLIGENCE_ARCHITECT // UKG_ECOSYSTEM_OPERATOR</h2>
+  <img
+    src="./assets/api.svg"
+    alt="TIME. DATA. WORKFORCE. OPTIMIZED."
+    width="100%"
+  />
+
+  <h2>&gt;_ WORKFORCE_INTELLIGENCE_ARCHITECT // UKG_ECOSYSTEM_OPERATOR</h2>
 
   <p>
-    <b>ID: KG-8842</b> |
+    <strong>ID: KG-8842</strong> |
     status: ONLINE |
     location: HOUSTON, TX
   </p>
 
   <a href="https://kronosguy.com">
-    <img src="https://img.shields.io/badge/LINK-PORTFOLIO-000000?style=for-the-badge&logo=vercel&logoColor=ccff00&labelColor=1a1a1a" alt="Portfolio"/>
+    <img
+      src="https://img.shields.io/badge/LINK-PORTFOLIO-000000?style=for-the-badge&logo=vercel&logoColor=ccff00&labelColor=1a1a1a"
+      alt="Portfolio"
+    />
   </a>
+
   <a href="https://linkedin.com/in/kronosguy">
-    <img src="https://img.shields.io/badge/LINK-LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=ccff00&labelColor=1a1a1a" alt="LinkedIn"/>
+    <img
+      src="https://img.shields.io/badge/LINK-LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=ccff00&labelColor=1a1a1a"
+      alt="LinkedIn"
+    />
   </a>
+
   <a href="mailto:brandon@kronosguy.com">
-    <img src="https://img.shields.io/badge/LINK-CONTACT_ME-000000?style=for-the-badge&logo=minutemailer&logoColor=ccff00&labelColor=1a1a1a" alt="Email"/>
+    <img
+      src="https://img.shields.io/badge/LINK-CONTACT_ME-000000?style=for-the-badge&logo=minutemailer&logoColor=ccff00&labelColor=1a1a1a"
+      alt="Email"
+    />
   </a>
+
 </div>
 
 ---
@@ -68,7 +85,10 @@
 ### >_ DEPLOYMENT_STACK
 
 <p>
-  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,python,postgres,gcp,azure&theme=dark" />
+  <img
+    src="https://skillicons.dev/icons?i=nextjs,react,ts,tailwind,python,postgres,gcp,azure&theme=dark"
+    alt="Next.js, React, TypeScript, Tailwind CSS, Python, PostgreSQL, Google Cloud, and Azure"
+  />
 </p>
 
 ---
@@ -80,7 +100,7 @@ High-value strategic initiatives currently deployed. Business value over feature
 | FINANCIAL_CONTROL | OPERATIONAL_EFFICIENCY | DATA_INTEGRITY |
 | :--- | :--- | :--- |
 | **PREMIUM_PAY_DRIFT** | **APPROVALS_BACKLOG** | **MASTER_DATA_QUALITY** |
-| Audit tooling to prevent labor cost leakage and pay rule drift. | Workflow automation clearing 500+ stalled requests. | Data governance improving workforce reporting trust and consistency. |
+| Audit tooling to prevent labor cost leakage and pay-rule drift. | Workflow automation clearing 500+ stalled requests. | Data governance improving workforce reporting trust and consistency. |
 
 ---
 
@@ -88,11 +108,11 @@ High-value strategic initiatives currently deployed. Business value over feature
 
 | MISSION_LOG | OUTCOME |
 | :--- | :--- |
-| **CASE_001 :: HEALTHCARE_GEOFENCE_MODERNIZATION** | Designed and deployed workforce location validation controls improving audit readiness and location accuracy. |
-| **CASE_002 :: PREMIUM_PAY_GOVERNANCE** | Identified labor cost leakage opportunities and strengthened payroll control mechanisms. |
-| **CASE_003 :: EXECUTIVE_WORKFORCE_ANALYTICS** | Delivered workforce intelligence dashboards supporting executive staffing and labor decisions. |
-| **CASE_004 :: APPROVAL_WORKFLOW_OPTIMIZATION** | Eliminated operational bottlenecks and restored workforce process efficiency across large request queues. |
-| **CASE_005 :: UKG_DATAHUB_REPORTING_ARCHITECTURE** | Established scalable reporting foundations improving visibility, governance, and reporting consistency. |
+| **CASE_001 :: HEALTHCARE_GEOFENCE_MODERNIZATION** | Designed and deployed workforce location-validation controls that improved audit readiness and location accuracy. |
+| **CASE_002 :: PREMIUM_PAY_GOVERNANCE** | Identified labor-cost leakage opportunities and strengthened payroll-control mechanisms. |
+| **CASE_003 :: EXECUTIVE_WORKFORCE_ANALYTICS** | Delivered workforce-intelligence dashboards supporting executive staffing and labor decisions. |
+| **CASE_004 :: APPROVAL_WORKFLOW_OPTIMIZATION** | Eliminated operational bottlenecks and restored workforce-process efficiency across large request queues. |
+| **CASE_005 :: UKG_DATAHUB_REPORTING_ARCHITECTURE** | Established scalable reporting foundations that improved visibility, governance, and reporting consistency. |
 
 ---
 
@@ -110,19 +130,21 @@ High-value strategic initiatives currently deployed. Business value over feature
 ### >_ LATEST_TRANSMISSION
 
 <!-- BLOG-POST-LIST:START -->
+
 - [UKG Pro WFM Transmission: Integration SLA Monitoring for UKG Pro WFM Feeds](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-07-18)
 - [UKG Pro WFM Transmission: Stabilizing Timecard Exceptions Before Payroll Lock](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-07-15)
 - [UKG Pro WFM Transmission: Integration SLA Monitoring for UKG Pro WFM Feeds](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-07-12)
+
 <!-- BLOG-POST-LIST:END -->
 
 ---
 
 ### >_ TRANSMISSION_CHANNELS
 
-🌐 https://kronosguy.com
+🌐 [kronosguy.com](https://kronosguy.com)
 
-💼 https://linkedin.com/in/kronosguy
+💼 [linkedin.com/in/kronosguy](https://linkedin.com/in/kronosguy)
 
-📧 brandon@kronosguy.com
+📧 [brandon@kronosguy.com](mailto:brandon@kronosguy.com)
 
 🛰️ Available for consulting engagements, architecture reviews, workforce analytics initiatives, and UKG transformation programs.
