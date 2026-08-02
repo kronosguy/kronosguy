@@ -130,9 +130,9 @@ High-value strategic initiatives currently deployed. Business value over feature
 ### >_ LATEST_TRANSMISSION
 
 <!-- BLOG-POST-LIST:START -->
+- [UKG Pro WFM Transmission: Scenario Simulation for Workforce Demand-Signal Quality: Employee Experience](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-07-30)
+- [UKG Pro WFM Transmission: Automation Design for Executive Workforce Kpi Trust: Labor Cost Control](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-07-27)
 - [UKG Pro WFM Transmission: Integration SLA Monitoring for UKG Pro WFM Feeds](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-07-24)
-- [UKG Pro WFM Transmission: Stabilizing Timecard Exceptions Before Payroll Lock](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-07-21)
-- [UKG Pro WFM Transmission: Integration SLA Monitoring for UKG Pro WFM Feeds](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-07-18)
 <!-- BLOG-POST-LIST:END -->
 
 ---
