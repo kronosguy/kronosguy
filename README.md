@@ -137,8 +137,43 @@ Selected initiatives focused on measurable workforce, data, financial-control, a
 
 ---
 
-### Contact and Availability
+### Professional Opportunities & Contact
 
-[Portfolio](https://kronosguy.com) · [LinkedIn](https://linkedin.com/in/kronosguy) · [Email](mailto:brandon@kronosguy.com)
+Open to:
 
-Available for consulting engagements, architecture reviews, solution engineering, workforce analytics initiatives, and UKG transformation programs.
+- Senior Solution Engineer and Solution Architect opportunities
+- UKG Pro WFM architecture and integration leadership
+- Remote contract and full-time workforce technology roles
+- Select consulting, assessment, and transformation engagements
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://kronosguy.com">
+        <img src="./assets/contact-portfolio.svg" alt="Portfolio" width="96" height="96" />
+      </a>
+      <br />
+      <strong>Portfolio</strong>
+      <br />
+      <a href="https://kronosguy.com">kronosguy.com</a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://www.linkedin.com/in/kronosguy">
+        <img src="./assets/contact-linkedin.svg" alt="LinkedIn" width="96" height="96" />
+      </a>
+      <br />
+      <strong>LinkedIn</strong>
+      <br />
+      <a href="https://www.linkedin.com/in/kronosguy">linkedin.com/in/kronosguy</a>
+    </td>
+    <td align="center" width="33%">
+      <a href="mailto:brandon@kronosguy.com">
+        <img src="./assets/contact-outlook.svg" alt="Outlook" width="96" height="96" />
+      </a>
+      <br />
+      <strong>Outlook</strong>
+      <br />
+      <a href="mailto:brandon@kronosguy.com">brandon@kronosguy.com</a>
+    </td>
+  </tr>
+</table>
