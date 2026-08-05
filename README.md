@@ -146,34 +146,8 @@ Open to:
 - Remote contract and full-time workforce technology roles
 - Select consulting, assessment, and transformation engagements
 
-<table>
-  <tr>
-    <td align="center" width="33%">
-      <a href="https://kronosguy.com">
-        <img src="./assets/contact-portfolio.svg" alt="Portfolio" width="96" height="96" />
-      </a>
-      <br />
-      <strong>Portfolio</strong>
-      <br />
-      <a href="https://kronosguy.com">kronosguy.com</a>
-    </td>
-    <td align="center" width="33%">
-      <a href="https://www.linkedin.com/in/kronosguy">
-        <img src="./assets/contact-linkedin.svg" alt="LinkedIn" width="96" height="96" />
-      </a>
-      <br />
-      <strong>LinkedIn</strong>
-      <br />
-      <a href="https://www.linkedin.com/in/kronosguy">linkedin.com/in/kronosguy</a>
-    </td>
-    <td align="center" width="33%">
-      <a href="mailto:brandon@kronosguy.com">
-        <img src="./assets/contact-outlook.svg" alt="Outlook" width="96" height="96" />
-      </a>
-      <br />
-      <strong>Outlook</strong>
-      <br />
-      <a href="mailto:brandon@kronosguy.com">brandon@kronosguy.com</a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://kronosguy.com"><img src="./assets/contact-portfolio-wide.svg" alt="Portfolio — kronosguy.com" width="32%" /></a>
+  <a href="https://www.linkedin.com/in/kronosguy"><img src="./assets/contact-linkedin-wide.svg" alt="LinkedIn — linkedin.com/in/kronosguy" width="32%" /></a>
+  <a href="mailto:brandon@kronosguy.com"><img src="./assets/contact-outlook-wide.svg" alt="Outlook — brandon@kronosguy.com" width="32%" /></a>
+</p>
