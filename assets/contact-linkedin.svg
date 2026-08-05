@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">LinkedIn</title>
+  <desc id="desc">Blue circular LinkedIn icon with white letters</desc>
+  <circle cx="80" cy="80" r="76" fill="#0A66C2"/>
+  <circle cx="52" cy="52" r="8" fill="#FFFFFF"/>
+  <rect x="45" y="68" width="14" height="48" rx="2" fill="#FFFFFF"/>
+  <path d="M72 68h14v7c6-7 13-10 22-10 19 0 25 12 25 31v20h-15V98c0-11-3-19-13-19-11 0-18 7-18 21v16H72V68z" fill="#FFFFFF"/>
+</svg>
