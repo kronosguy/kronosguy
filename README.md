@@ -9,10 +9,10 @@
   <h2>&gt;_ ENTERPRISE WFM ARCHITECT // BOOMI INTEGRATION DEVELOPER // INTEGRATION AND DATA STRATEGY</h2>
 
   <p>
-    <strong>ID: KG-8842</strong> |
-    status: ONLINE | AVAILABLE FOR ARCHITECTURE AND SOLUTION ENGINEERING
-    location: HOUSTON, TX
-  </p>
+  <strong>ID: KG - 832</strong><br />
+  status: ONLINE<br />
+  location: HOUSTON, TX
+</p>
 
   <a href="https://kronosguy.com">
     <img
