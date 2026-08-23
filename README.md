@@ -130,9 +130,9 @@ Selected initiatives focused on measurable workforce, data, financial-control, a
 ### Latest Insights
 
 <!-- BLOG-POST-LIST:START -->
+- [UKG Pro WFM Transmission: Executive Scorecards for Workload Forecast Accuracy: Manager Accountability](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-08-20)
+- [UKG Pro WFM Transmission: Early-Warning Controls for Open-Shift Conversion: Payroll Readiness](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-08-17)
 - [UKG Pro WFM Transmission: Scenario Simulation for Post-Publish Schedule Churn: Operational Resilience](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-08-14)
-- [UKG Pro WFM Transmission: Automation Design for Overtime Pressure: Compliance Assurance](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-08-11)
-- [UKG Pro WFM Transmission: Predictive Monitoring of Premium-Pay Drift: Transformation Readiness](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-08-08)
 <!-- BLOG-POST-LIST:END -->
 
 ---
