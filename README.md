@@ -8,12 +8,6 @@
 
   <h2>Enterprise WFM Architect | Boomi Integration Developer | Integration & Data Strategy</h2>
 
-  <p>
-    <strong>ID: KG - 832</strong><br />
-    Status: Online<br />
-    Location: Houston, TX
-  </p>
-
 </div>
 
 ---
