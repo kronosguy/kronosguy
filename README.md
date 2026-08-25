@@ -14,27 +14,6 @@
     Location: Houston, TX
   </p>
 
-  <a href="https://kronosguy.com">
-    <img
-      src="https://img.shields.io/badge/VIEW-PORTFOLIO-000000?style=for-the-badge&logo=vercel&logoColor=ccff00&labelColor=1a1a1a"
-      alt="Portfolio"
-    />
-  </a>
-
-  <a href="https://linkedin.com/in/kronosguy">
-    <img
-      src="https://img.shields.io/badge/VIEW-LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=ccff00&labelColor=1a1a1a"
-      alt="LinkedIn"
-    />
-  </a>
-
-  <a href="mailto:brandon@kronosguy.com">
-    <img
-      src="https://img.shields.io/badge/CONTACT-EMAIL-000000?style=for-the-badge&logo=minutemailer&logoColor=ccff00&labelColor=1a1a1a"
-      alt="Email"
-    />
-  </a>
-
 </div>
 
 ---
