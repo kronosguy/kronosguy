@@ -103,9 +103,9 @@ Selected initiatives focused on measurable workforce, data, financial-control, a
 ### Latest Insights
 
 <!-- BLOG-POST-LIST:START -->
+- [UKG Pro WFM Transmission: Early-Warning Controls for Workforce Demand-Signal Quality: Enterprise Data Trust](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-10-16)
+- [UKG Pro WFM Transmission: Scenario Simulation for Datahub Freshness: Workforce Strategy](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-10-13)
 - [UKG Pro WFM Transmission: Automation Design for Work-Rule Assignment Integrity: Employee Experience](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-10-10)
-- [UKG Pro WFM Transmission: Governance Thresholds for Attendance Pattern Risk: Labor Cost Control](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-10-07)
-- [UKG Pro WFM Transmission: Executive Scorecards for Productive And Nonproductive Labor Mix: Executive Decision Support](https://kronosguy.com/blog/ukg-pro-wfm-transmission-2026-10-04)
 <!-- BLOG-POST-LIST:END -->
 
 ---
